@@ -1,0 +1,29 @@
+{
+  "name": "radio_backend",
+  "version": "1.0.0",
+  "description": "Backend service for extracting metadata from radio streams",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "radio",
+    "metadata",
+    "icecast",
+    "streaming"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "icecast-parser": "^4.0.2",
+    "last-fm": "^5.3.0",
+    "socket.io": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
